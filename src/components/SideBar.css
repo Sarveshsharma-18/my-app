@@ -1,0 +1,42 @@
+.sidebar {
+    width: 250px;
+    background-color: #f7e7e0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.logo h2 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.user-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

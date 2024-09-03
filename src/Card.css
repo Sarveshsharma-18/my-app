@@ -1,0 +1,26 @@
+/* src/Card.css */
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .card .content p, .card .content pre {
+    margin: 0;
+  }
+
+  /* src/Dashboard.css */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
